@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)file:///Users/new/Documents/ProgramingProjects/Web/Applications/ourTeamWidget/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+	<title>Our Team</title>
+	<meta charset="uft-8">
+	<meta description="Overview and detailed bio of each team member">
+	<link rel="stylesheet" href="file:///Users/new/Documents/ProgramingProjects/Web/Applications/ourTeamWidget/css/main.css">
+	<script src="./Our Team_files/angular.min.js"></script>
+    <script src="./Our Team_files/jquery-2.1.4.js"></script>
+</head>
+<body ng-app="OurTeamApp" class="ng-scope">
+	<div ng-controller="MainController" class="mainWrap ng-scope">
+		<div class="column"> 
+			<!-- ngRepeat: card in cards --><div class="cardWrap ng-scope" ng-repeat="card in cards">
+				<div class="contentWrap">
+					<div class="idPic">
+						<img src="./Our Team_files/rod.jpg">
+					</div>
+					<div class="buffer">
+						<div class="arrow"></div>
+					</div>
+					<div class="bioWrap">
+						<div class="nameWrap">
+							<h1 class="ng-binding"> Rod Taylor </h1>
+							<h2 class="ng-binding"> Founding Partner </h2>
+						</div>
+						<div class="bio">
+							<p class="ng-binding"> Rod Taylor established Taylor &amp; Company in 1984 to offer clients international management consulting and executive recruiting services.</p>
+							<input type="button" class="btn-default" value="See All">
+						</div>
+						<div class="contact">
+							<p class="ng-binding"> 8776784090 </p>
+							<p class="ng-binding">Mobile: 7703351147 </p>
+							<p><a class="ng-binding"> rod.taylor@taylorcompany.net </a></p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end ngRepeat: card in cards --><div class="cardWrap ng-scope" ng-repeat="card in cards">
+				<div class="contentWrap">
+					<div class="idPic">
+						<img src="./Our Team_files/melissa.jpg">
+					</div>
+					<div class="buffer">
+						<div class="arrow"></div>
+					</div>
+					<div class="bioWrap">
+						<div class="nameWrap">
+							<h1 class="ng-binding"> Melissa Price </h1>
+							<h2 class="ng-binding"> Partner </h2>
+						</div>
+						<div class="bio">
+							<p class="ng-binding"> Melissa Price joined Taylor &amp; Company in 2005. She manages Taylor’s recruiting operations, client relationships, and business development in the U.S.</p>
+							<input type="button" class="btn-default" value="See All">
+						</div>
+						<div class="contact">
+							<p class="ng-binding"> 8776784090 </p>
+							<p class="ng-binding">Mobile: 3346180367 </p>
+							<p><a class="ng-binding"> melissa.price@taylorcompany.net </a></p>
+						</div>
+					</div>
+				</div>
+			</div><!-- end ngRepeat: card in cards -->
+		</div>
+	</div>
+	<div id="overlay">
+		<div class="fullBio">
+			<div class="exitWrap">
+				<img class="exitButton" src="./Our Team_files/arrow-right.svg">
+			</div>
+			<div class="fullWrap">
+				<div class="fullBioPic">
+					<img src="./Our Team_files/Rod Taylor Head Shot.jpg">
+				</div>
+				<div class="fullBioContent">
+					<p>Rod Taylor established Taylor &amp; Company in 1984 to offer clients international management consulting and executive recruiting services. Originally, Taylor provided consulting services to financial institutions seeking access to international capital markets. Today, Taylor ranks among the leading executive search firms in the United States specialized in banking.</p>
+					<p>Prior to forming Taylor &amp; Company, Taylor served as the Vice-Chairman of Union Planters National Bank in Memphis, Tennessee from 1982 through 1985. As the senior executive responsible for strategic planning, he developed new sales and trading relationships for the Union Planters Investment Banking Group in Europe and Asia. He also managed investor relations, international trade finance, and correspondent banking.</p>
+					<p>In 1979, Taylor joined the International Strategy Group of A.T. Kearney Management Consultants in Brussels, Belgium. During his tenure at Kearney, Taylor’s practice focused on financial services and energy related industries. His specializations included bank holding company expansion strategy, acquisition target analysis, and export operations.</p>
+					<p>In 1975, prior to joining Kearney, Taylor was appointed by the Governor of Mississippi as Managing Director of the State of Mississippi's European office in Brussels, Belgium. As Mississippi’s official emissary to foreign governments, he organized and led trade/investment missions to Europe, the Middle East, Latin America, Asia, and Africa.</p>
+					<p>Taylor holds a Bachelor of Arts Degree from the University of Mississippi and an International MBA from Thunderbird School of Global Management. He speaks French fluently, has a working knowledge of Spanish and German, and has also studied Arabic, Japanese, and a variety of other languages.</p>
+					<p>Taylor was a founding member of the United States Library of Congress James Madison Council and Thunderbird School of Global Management President's Council. He also founded and serves as a member of the University of Mississippi’s advisory board for the schools of Banking &amp; Finance and Political Science and is on the Board of Directors for the University of Mississippi’s Alumni Association.</p>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<script src="./Our Team_files/app.js"></script>
+	<script src="./Our Team_files/mainController.js"></script>
+	<script src="./Our Team_files/animate.js"></script>
+
+</body></html>
